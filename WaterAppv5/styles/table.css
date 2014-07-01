@@ -1,0 +1,33 @@
+table { 
+		width: 95%;
+    margin:auto;
+		border-collapse: collapse; 
+   
+	}
+thead
+{
+   font-size: 18px;
+width: 100%;
+color: #7fba00;
+text-align: center;
+padding-top: 10px;
+}
+
+	/* Zebra striping */
+	 tr:nth-of-type(even) { 
+		background: #fff; 
+	}
+	th { 
+		background: #fff; 
+		color: white;
+		font-family:"Century Gothic";
+		font-weight:normal;
+	}
+	td { 
+		padding: 6px; 
+		border-bottom: 0.1em solid #ccc; 
+        width:33.3%;
+	    font-weight:normal !important;
+	}
+	
+

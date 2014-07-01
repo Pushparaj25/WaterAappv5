@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WaterSupply>
+  <Corporations>
+    <Chart>
+      <LPCD>
+        <Daily Comfort="7" Poor="1" PendingApproval="1"></Daily>
+        <Weekly Comfort="5" Poor="2" PendingApproval="2"></Weekly>
+        <Last3Days>
+          <Day Date="08/05/2014" Comfort="7" Poor="1" PendingApproval="1"></Day>
+          <Day Date="09/05/2014" Comfort="7" Poor="1" PendingApproval="1"></Day>
+          <Day Date="10/05/2014" Comfort="7" Poor="1" PendingApproval="1"></Day>
+        </Last3Days>
+        <Compfortlist>
+          <Compfort Name="Coimbatore" />
+          <Compfort Name="Erode" />
+          <Compfort Name="Madurai" />
+          <Compfort Name="Salem" />
+          <Compfort Name="Tiruchirappalli" />
+          <Compfort Name="Tirunelveli" />
+          <Compfort Name="Tiruppur" />
+        </Compfortlist>
+        <Poorlist>
+          <Poor Name="Thoothukudi" />
+        </Poorlist>
+        <PendingApprovallist>
+          <PendingApproval Name="Vellore" />
+        </PendingApprovallist>
+      </LPCD>
+      <IssuesChart>
+        <Daily Reported="5" ActionTaken="2">
+        </Daily>
+        <Details>
+          <Corporation Name="Coimbatore" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3"></Corporation>
+          <Corporation Name="Erode" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="2"></Corporation>
+          <Corporation Name="Madurai" starter="1" PowerCable="2" SwitchBox="3" Motor="1" Pump="3" EB="1" Others="1"></Corporation>
+          <Corporation Name="Salem" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="4"></Corporation>
+          <Corporation Name="Tiruchirappalli" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="6"></Corporation>
+          <Corporation Name="Tirunelveli" starter="2" PowerCable="2" SwitchBox="3" Motor="2" Pump="3" EB="1" Others="2"></Corporation>
+          <Corporation Name="Tiruppur" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="1"></Corporation>
+          <Corporation Name="Thoothukudi" starter="3" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="1" Others="2"></Corporation>
+          <Corporation Name="Vellore" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3"></Corporation>
+        </Details>
+      </IssuesChart>
+      <SourceDataChart>
+        <Daily Below10Perc="3" Below25Perc="4" Below50Perc="2" Above50Perc="4" ></Daily>
+        <Details>
+          <Corporation Name="Coimbatore" Below10Perc="3" Below25Perc="4" Below50Perc="2" Above50Perc="1" >
+          </Corporation>
+          <Corporation Name="Erode" Below10Perc="1" Below25Perc="4" Below50Perc="2" Above50Perc="2">
+          </Corporation>
+          <Corporation Name="Madurai" Below10Perc="3" Below25Perc="4" Below50Perc="2" Above50Perc="3">
+          </Corporation>
+          <Corporation Name="Salem" Below10Perc="6" Below25Perc="5" Below50Perc="2" Above50Perc="6">
+          </Corporation>
+          <Corporation Name="Tiruchirappalli" Below10Perc="3" Below25Perc="4" Below50Perc="2" Above50Perc="2">
+          </Corporation>
+          <Corporation Name="Tirunelveli" Below10Perc="6" Below25Perc="1" Below50Perc="2" Above50Perc="3">
+          </Corporation>
+          <Corporation Name="Tiruppur" Below10Perc="3" Below25Perc="4" Below50Perc="2" Above50Perc="1" >
+          </Corporation>
+          <Corporation Name="Thoothukudi" Below10Perc="2" Below25Perc="4" Below50Perc="2" Above50Perc="2">
+          </Corporation>
+          <Corporation Name="Vellore" Below10Perc="1" Below25Perc="3" Below50Perc="2" Above50Perc="1">
+          </Corporation>
+        </Details>
+      </SourceDataChart>
+      <TankCleaningChart>
+        <Daily Cleaned="12" Scheduled="3"></Daily>
+        <Details>
+          <Corporation Name="Coimbatore" Cleaned="16" Scheduled="5"> </Corporation>
+          <Corporation Name="Erode" Cleaned="26" Scheduled="5" ></Corporation>
+          <Corporation Name="Madurai" Cleaned="26" Scheduled="15" > </Corporation>
+          <Corporation Name="Salem" Cleaned="21" Scheduled="5" ></Corporation>
+          <Corporation Name="Tiruchirappalli" Cleaned="22" Scheduled="5" ></Corporation>
+          <Corporation Name="Tirunelveli" Cleaned="26" Scheduled="45" ></Corporation>
+          <Corporation Name="Tiruppur" Cleaned="26" Scheduled="5" ></Corporation>
+          <Corporation Name="Thoothukudi" Cleaned="23" Scheduled="5" ></Corporation>
+          <Corporation Name="Vellore" Cleaned="26" Scheduled="5" ></Corporation>
+        </Details>
+      </TankCleaningChart>
+
+    </Chart>
+  </Corporations>
+  <Municipalities>
+    <Regions>
+      <RegionAll>
+        <LPCD>
+          <Daily Good="18" Comfortable="11" Poor="8" Acute="7" MPendingApproval="10"></Daily>
+          <Weekly Good="22" Comfortable="2" Poor="3" Acute="15" MPendingApproval="2"></Weekly>
+          <Last3Days>
+            <Day Date="08/05/2014"  Good="18" Comfortable="9" Acute="11" Poor="2" PendingApproval="3"></Day>
+            <Day Date="09/05/2014"  Good="13" Comfortable="7" Acute="9" Poor="7" PendingApproval="1"></Day>
+            <Day Date="10/05/2014"  Good="12" Comfortable="6" Acute="7" Poor="5" PendingApproval="4"></Day>
+          </Last3Days>
+        </LPCD>
+        <IssuesChart>
+          <Daily Reported="250" ActionTaken="140"></Daily>
+          <Weekly>
+            <Region Name="Chengalpattu" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1">
+            </Region>
+            <Region Name="Madurai" starter="4" PowerCable="1" SwitchBox="3" Motor="10" Pump="3" EB="1">
+            </Region>
+            <Region Name="Salem" starter="4" PowerCable="2" SwitchBox="3" Motor="5" Pump="3" EB="1">
+            </Region>
+            <Region Name="Thanjavur" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1">
+            </Region>
+            <Region Name="Tirunelveli" starter="2" PowerCable="4" SwitchBox="3" Motor="4" Pump="4" EB="1">
+            </Region>
+            <Region Name="Tiruppur" starter="1" PowerCable="1" SwitchBox="3" Motor="7" Pump="3" EB="1">
+            </Region>
+            <Region Name="Vellore" starter="10" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1">
+            </Region>
+          </Weekly>
+        </IssuesChart>
+        <SourceDataChart>
+          <Daily Below10Perc="25" Below25Perc="18" Below50Perc="6" Above50Perc="4"></Daily>
+          <Weekly>
+            <Region Name="Chengalpattu" Below10Perc="3" Below25Perc="4" Below50Perc="2" Above50Perc="4" >
+            </Region>
+            <Region Name="Madurai" Below10Perc="1" Below25Perc="4" Below50Perc="2" Above50Perc="1">
+            </Region>
+            <Region Name="Salem" Below10Perc="3" Below25Perc="4" Below50Perc="2" Above50Perc="4">
+            </Region>
+            <Region Name="Thanjavur" Below10Perc="6" Below25Perc="5" Below50Perc="2" Above50Perc="2">
+            </Region>
+
+            <Region Name="Tirunelveli" Below10Perc="6" Below25Perc="1" Below50Perc="2" Above50Perc="3">
+            </Region>
+            <Region Name="Tiruppur" Below10Perc="3" Below25Perc="4" Below50Perc="2" Above50Perc="4" >
+            </Region>
+
+            <Region Name="Vellore" Below10Perc="1" Below25Perc="3" Below50Perc="2" Above50Perc="4">
+            </Region>
+
+
+          </Weekly>
+        </SourceDataChart>
+        <TankCleaning>
+          <Daily Cleaned="90" Scheduled="60"></Daily>
+          <Weekly>
+            <Region Name="Chengalpattu" Cleaned="35" Scheduled="40" >
+            </Region>
+            <Region Name="Madurai" Cleaned="20" Scheduled="25">
+            </Region>
+            <Region Name="Salem" Cleaned="34" Scheduled="36">
+            </Region>
+            <Region Name="Thanjavur" Cleaned="1" Scheduled="34">
+            </Region>
+
+            <Region Name="Tirunelveli" Cleaned="9" Scheduled="10">
+            </Region>
+            <Region Name="Tiruppur" Cleaned="34" Scheduled="24" >
+            </Region>
+
+            <Region Name="Vellore" Cleaned="10" Scheduled="20">
+            </Region>
+
+
+          </Weekly>
+        </TankCleaning>
+      </RegionAll>
+
+      <RegionData>
+        <Region Name="Chengalpattu">
+          <Districts>
+            <DistrictAll>
+              <LPCD>
+                <Daily Good="7" Comfortable="4" Poor="3" Acute="2" MPendingApproval="1"></Daily>
+                <Weekly Good="8" Comfortable="3" Poor="3" Acute="6" MPendingApproval="2"></Weekly>
+                <Last3Days>
+                  <Day Date="08/05/2014"  Good="8" Comfortable="5" Acute="3" Poor="2" PendingApproval="3"></Day>
+                  <Day Date="09/05/2014"  Good="7" Comfortable="2"  Acute="6" Poor="3" PendingApproval="1"></Day>
+                  <Day Date="10/05/2014"  Good="6" Comfortable="1" Acute="5" Poor="1" PendingApproval="4"></Day>
+                </Last3Days>
+              </LPCD>
+              <IssuesChart>
+                <Daily Reported="250" ActionTaken="140"></Daily>
+                <Details>
+                  <District Name="Cuddalore" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3" >
+                  </District>
+                  <District Name="Kancheepuram" starter="4" PowerCable="1" SwitchBox="3" Motor="10" Pump="3" EB="1" Others="1">
+                  </District>
+                  <District Name="Tiruvallur" starter="4" PowerCable="2" SwitchBox="3" Motor="5" Pump="3" EB="1" Others="2">
+                  </District>
+                </Details>
+              </IssuesChart>
+              <SourceDataChart>
+                <Daily Below10Perc="25" Below25Perc="18" Below50Perc="6" Above50Perc="2"></Daily>
+                <Details>
+                  <District Name="Cuddalore" Below10Perc="25" Below25Perc="18" Below50Perc="6" Above50Perc="6">
+                  </District>
+                  <District Name="Kancheepuram" Below10Perc="12" Below25Perc="8" Below50Perc="3" Above50Perc="4">
+                  </District>
+                  <District Name="Tiruvallur" Below10Perc="5" Below25Perc="1" Below50Perc="6" Above50Perc="1">
+                  </District>
+                </Details>
+              </SourceDataChart>
+              <TankCleaning>
+                <Daily Cleaned="90" Scheduled="60"></Daily>
+                <Details>
+                  <District Name="Cuddalore" Cleaned="30" Scheduled="60">
+                  </District>
+                  <District Name="Kancheepuram" Cleaned="21" Scheduled="32">
+                  </District>
+                  <District Name="Tiruvallur" Cleaned="10" Scheduled="5"></District>
+                </Details>
+              </TankCleaning>
+            </DistrictAll>
+            <DistrictData>
+              <District Name="Cuddalore">
+                <LPCD>
+                  <Daily Good="7" Comfortable="4" Poor="3" Acute="2" MPendingApproval="1"></Daily>
+                  <Weekly Good="8" Comfortable="3" Poor="3" Acute="6" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="6" Comfortable="1" Acute="2" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="3" Acute="3" Poor="7" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="2" Comfortable="2" Acute="1" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="250" ActionTaken="140"></Daily>
+                  <Details>
+                    <Municipality Name="Chidambaram" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="2">
+                    </Municipality>
+                    <Municipality Name="Cuddalore" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="1">
+                    </Municipality>
+                    <Municipality Name="Panrutti" starter="1" PowerCable="2" SwitchBox="2" Motor="2" Pump="3" EB="1" Others="2">
+                    </Municipality>
+                    <Municipality Name="Virudachalam" starter="5" PowerCable="1" SwitchBox="4" Motor="4" Pump="3" EB="6" Others="3">
+                    </Municipality>
+                    <Municipality Name="Nellikuppam" starter="1" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="25" Below25Perc="13" Below50Perc="6" Above50Perc="1"></Daily>
+                  <Details>
+                    <Municipality Name="Chidambaram" Below10Perc="25" Below25Perc="18" Below50Perc="6" Above50Perc="4">
+                    </Municipality>
+                    <Municipality Name="Cuddalore" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="5">
+                    </Municipality>
+                    <Municipality Name="Panrutti" Below10Perc="4" Below25Perc="1" Below50Perc="6" Above50Perc="2">
+                    </Municipality>
+                    <Municipality Name="Virudachalam" Below10Perc="2" Below25Perc="1" Below50Perc="6" Above50Perc="1">
+                    </Municipality>
+                    <Municipality Name="Nellikuppam" Below10Perc="1" Below25Perc="1" Below50Perc="6" Above50Perc="3">
+                    </Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="90" Scheduled="60"></Daily>
+                  <Details>
+                    <Municipality Name="Chidambaram" Cleaned="30" Scheduled="40">
+                    </Municipality>
+                    <Municipality Name="Cuddalore" Cleaned="21" Scheduled="24">
+                    </Municipality>
+                    <Municipality Name="Panrutti" Cleaned="10" Scheduled="5"></Municipality>
+                    <Municipality Name="Virudachalam" Cleaned="3" Scheduled="13">
+                    </Municipality>
+                    <Municipality Name="Nellikuppam" Cleaned="4" Scheduled="22">
+                    </Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Kancheepuram">
+                <LPCD>
+                  <Daily Good="2" Comfortable="1" Poor="1" Acute="2" MPendingApproval="3"></Daily>
+                  <Weekly Good="4" Comfortable="2" Poor="2" Acute="4" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="6" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="2" Comfortable="4"  Acute="4" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014" Good="6" Comfortable="5" Acute="3" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="140" ActionTaken="60"></Daily>
+                  <Details>
+                    <Municipality Name="Anakaputhur" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Chengalpattu" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="1">
+                    </Municipality>
+                    <Municipality Name="Kancheepuram" starter="1" PowerCable="2" SwitchBox="2" Motor="2" Pump="3" EB="1" Others="1">
+                    </Municipality>
+                    <Municipality Name="Madurantakam" starter="5" PowerCable="1" SwitchBox="4" Motor="4" Pump="3" EB="6" Others="2">
+                    </Municipality>
+                    <Municipality Name="Maraimalainagar" starter="1" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="0">
+                    </Municipality>
+                    <Municipality Name="Pallavaram" starter="1" PowerCable="2" SwitchBox="3" Motor="1" Pump="3" EB="1" Others="2">
+                    </Municipality>
+                    <Municipality Name="Pammal" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Tamabaram" starter="1" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="1">
+                    </Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="2" Below25Perc="4" Below50Perc="3" Above50Perc="1"></Daily>
+                  <Details>
+                    <Municipality Name="Anakaputhur" Below10Perc="17" Below25Perc="18" Below50Perc="6" Above50Perc="2">
+                    </Municipality>
+                    <Municipality Name="Chengalpattu" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="3">
+                    </Municipality>
+                    <Municipality Name="Kancheepuram" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="1">
+                    </Municipality>
+                    <Municipality Name="Madurantakam" Below10Perc="2" Below25Perc="2" Below50Perc="2" Above50Perc="2">
+                    </Municipality>
+                    <Municipality Name="Maraimalainagar" Below10Perc="1" Below25Perc="4" Below50Perc="3" Above50Perc="4">
+                    </Municipality>
+                    <Municipality Name="Pallavaram" Below10Perc="2" Below25Perc="6" Below50Perc="4" Above50Perc="4">
+                    </Municipality>
+                    <Municipality Name="Pammal" Below10Perc="2" Below25Perc="1" Below50Perc="6" Above50Perc="3">
+                    </Municipality>
+                    <Municipality Name="Tamabaram" Below10Perc="1" Below25Perc="7" Below50Perc="5" Above50Perc="4">
+                    </Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="35" Scheduled="40"></Daily>
+                  <Details>
+                    <Municipality Name="Anakaputhur" Cleaned="11" Scheduled="15">
+                    </Municipality>
+                    <Municipality Name="Chengalpattu" Cleaned="10" Scheduled="10">
+                    </Municipality>
+                    <Municipality Name="Kancheepuram" Cleaned="3" Scheduled="5"></Municipality>
+                    <Municipality Name="Madurantakam" Cleaned="4" Scheduled="4">
+                    </Municipality>
+                    <Municipality Name="Maraimalainagar" Cleaned="10" Scheduled="15"></Municipality>
+                    <Municipality Name="Pallavaram" Cleaned="3" Scheduled="4">
+                    </Municipality>
+                    <Municipality Name="Pammal" Cleaned="2" Scheduled="6">
+                    </Municipality>
+                    <Municipality Name="Tamabaram" Cleaned="1" Scheduled="2">
+                    </Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Tiruvallur">
+                <LPCD>
+                  <Daily Good="2" Comfortable="3" Poor="1" Acute="2" MPendingApproval="1"></Daily>
+                  <Weekly Good="1" Comfortable="1" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="6" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="2" Comfortable="2" Acute="2" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="3" Comfortable="0" Acute="4" Poor="1" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="90" ActionTaken="36"></Daily>
+                  <Details>
+                    <Municipality Name="Avadi" starter="2" PowerCable="2" SwitchBox="3" Motor="4" Pump="3" EB="1" Others="1">
+                    </Municipality>
+                    <Municipality Name="Poonamalle" starter="2" PowerCable="3" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3">
+                    </Municipality>
+                    <Municipality Name="Tiruttani" starter="1" PowerCable="4" SwitchBox="2" Motor="2" Pump="3" EB="1" Others="1">
+                    </Municipality>
+                    <Municipality Name="Tiruvallur" starter="2" PowerCable="1" SwitchBox="2" Motor="3" Pump="3" EB="1" Others="2">
+                    </Municipality>
+                    <Municipality Name="Tiruverkkadu" starter="1" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="2" Below25Perc="3" Below50Perc="1" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Avadi" Below10Perc="4" Below25Perc="2" Below50Perc="1" Above50Perc="4">
+                    </Municipality>
+                    <Municipality Name="Poonamalle" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="4">
+                    </Municipality>
+                    <Municipality Name="Tiruttani" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="2">
+                    </Municipality>
+                    <Municipality Name="Tiruvallur" Below10Perc="2" Below25Perc="2" Below50Perc="2" Above50Perc="4">
+                    </Municipality>
+                    <Municipality Name="Tiruverkkadu" Below10Perc="1" Below25Perc="4" Below50Perc="3" Above50Perc="4">
+                    </Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="40" Scheduled="32"></Daily>
+                  <Details>
+                    <Municipality Name="Avadi" Cleaned="11" Scheduled="15">
+                    </Municipality>
+                    <Municipality Name="Poonamalle" Cleaned="25" Scheduled="10">
+                    </Municipality>
+                    <Municipality Name="Tiruttani" Cleaned="9" Scheduled="5"></Municipality>
+                    <Municipality Name="Tiruvallur" Cleaned="6" Scheduled="10">
+                    </Municipality>
+                    <Municipality Name="Tiruverkkadu" Cleaned="14" Scheduled="22">
+                    </Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+            </DistrictData>
+          </Districts>
+        </Region>
+
+        <Region Name="Madurai">
+          <Districts>
+            <DistrictAll>
+
+              <LPCD>
+                <Daily Good="3" Comfortable="2" Poor="1" Acute="2" MPendingApproval="4"></Daily>
+                <Weekly Good="4" Comfortable="3" Poor="3" Acute="3" MPendingApproval="1"></Weekly>
+                <Last3Days>
+                  <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                  <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="6" Poor="2" PendingApproval="1"></Day>
+                  <Day Date="10/05/2014"  Good="4" Comfortable="1" Acute="2" Poor="5" PendingApproval="4"></Day>
+                </Last3Days>
+              </LPCD>
+              <IssuesChart>
+                <Daily Reported="150" ActionTaken="132"></Daily>
+                <Details>
+                  <District Name="Dindigul" starter="3" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3"></District>
+                  <District Name="Madurai" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="3" Others="1"></District>
+                  <District Name="Ramanathapuram" starter="2" PowerCable="3" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="2"></District>
+                  <District Name="Sivagangai" starter="6" PowerCable="4" SwitchBox="3" Motor="5" Pump="3" EB="2" Others="3"></District>
+                  <District Name="Theni" starter="1" PowerCable="2" SwitchBox="3" Motor="5" Pump="1" EB="1" Others="3"></District>
+                </Details>
+              </IssuesChart>
+              <SourceDataChart>
+                <Daily Below10Perc="15" Below25Perc="10" Below50Perc="6" Above50Perc="4"></Daily>
+                <Details>
+                  <District Name="Dindigul" Below10Perc="10" Below25Perc="8" Below50Perc="4" Above50Perc="4"></District>
+                  <District Name="Madurai" Below10Perc="6" Below25Perc="3" Below50Perc="3" Above50Perc="2"></District>
+                  <District Name="Ramanathapuram" Below10Perc="7" Below25Perc="2" Below50Perc="3" Above50Perc="4"></District>
+                  <District Name="Sivagangai" Below10Perc="2" Below25Perc="3" Below50Perc="1" Above50Perc="3"></District>
+                  <District Name="Theni" Below10Perc="5" Below25Perc="1" Below50Perc="3" Above50Perc="1"></District>
+                </Details>
+              </SourceDataChart>
+              <TankCleaning>
+                <Daily Cleaned="90" Scheduled="60"></Daily>
+                <Details>
+                  <District Name="Dindigul" Cleaned="30" Scheduled="60"></District>
+                  <District Name="Madurai" Cleaned="11" Scheduled="12"></District>
+                  <District Name="Ramanathapuram" Cleaned="10" Scheduled="5"></District>
+                  <District Name="Sivagangai" Cleaned="16" Scheduled="18"></District>
+                  <District Name="Theni" Cleaned="2" Scheduled="5"></District>
+                </Details>
+              </TankCleaning>
+
+            </DistrictAll>
+            <DistrictData>
+              <District Name="Dindigul">
+                <LPCD>
+                  <Daily Good="6" Comfortable="2" Poor="1" Acute="2" MPendingApproval="1"></Daily>
+                  <Weekly Good="7" Comfortable="3" Poor="4" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="6" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="4" Comfortable="1" Acute="2" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="50" ActionTaken="32"></Daily>
+                  <Details>
+                    <Municipality Name="Dindigul" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="2">
+                    </Municipality>
+                    <Municipality Name="Kodaikanal" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3">
+                    </Municipality>
+                    <Municipality Name="Oddanchatram" starter="1" PowerCable="2" SwitchBox="2" Motor="2" Pump="3" EB="1" Others="1">
+                    </Municipality>
+                    <Municipality Name="Palani" starter="5" PowerCable="1" SwitchBox="4" Motor="4" Pump="3" EB="6" Others="3">
+                    </Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="10" Below25Perc="13" Below50Perc="6" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Dindigul" Below10Perc="10" Below25Perc="6" Below50Perc="3" Above50Perc="1">
+                    </Municipality>
+                    <Municipality Name="Kodaikanal" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="2">
+                    </Municipality>
+                    <Municipality Name="Oddanchatram" Below10Perc="4" Below25Perc="1" Below50Perc="6" Above50Perc="4">
+                    </Municipality>
+                    <Municipality Name="Palani" Below10Perc="2" Below25Perc="1" Below50Perc="6" Above50Perc="1">
+                    </Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="40" Scheduled="41"></Daily>
+                  <Details>
+                    <Municipality Name="Dindigul" Cleaned="24" Scheduled="40">
+                    </Municipality>
+                    <Municipality Name="Kodaikanal" Cleaned="21" Scheduled="32">
+                    </Municipality>
+                    <Municipality Name="Oddanchatram" Cleaned="5" Scheduled="5"></Municipality>
+                    <Municipality Name="Palani" Cleaned="3" Scheduled="6">
+                    </Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Madurai">
+                <LPCD>
+                  <Daily Good="2" Comfortable="3" Poor="0" Acute="2" MPendingApproval="3"></Daily>
+                  <Weekly Good="2" Comfortable="2" Poor="2" Acute="4" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="4" Comfortable="2" Acute="2" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="4" Comfortable="1" Acute="2" Poor="1" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="16" ActionTaken="12"></Daily>
+                  <Details>
+                    <Municipality Name="Melur" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Tirumanagalam" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="4" Others="3">
+                    </Municipality>
+                    <Municipality Name="Usilampatti" starter="1" PowerCable="2" SwitchBox="3" Motor="2" Pump="3" EB="1" Others="3">
+                    </Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="1" Below25Perc="2" Below50Perc="3" Above50Perc="6" ></Daily>
+                  <Details>
+                    <Municipality Name="Melur" Below10Perc="17" Below25Perc="18" Below50Perc="6" Above50Perc="2"></Municipality>
+                    <Municipality Name="Tirumanagalam" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="1"></Municipality>
+                    <Municipality Name="Usilampatti" Below10Perc="3" Below25Perc="1" Below50Perc="1"  Above50Perc="1"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="20" Scheduled="35"></Daily>
+                  <Details>
+                    <Municipality Name="Melur" Cleaned="11" Scheduled="15"></Municipality>
+                    <Municipality Name="Tirumanagalam" Cleaned="10" Scheduled="10"></Municipality>
+                    <Municipality Name="Usilampatti" Cleaned="3" Scheduled="5"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Ramanathapuram">
+                <LPCD>
+                  <Daily Good="1" Comfortable="2" Poor="3" Acute="0" MPendingApproval="0"></Daily>
+                  <Weekly Good="1" Comfortable="1" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="2" Comfortable="2" Acute="4" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="4" Comfortable="1" Acute="2" Poor="5" PendingApproval="2"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="82" ActionTaken="36"></Daily>
+                  <Details>
+                    <Municipality Name="Keelakari" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Ramanathapuram" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="2"></Municipality>
+                    <Municipality Name="Paramakudi" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Rameshwaram" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="2" Below25Perc="3" Below50Perc="1" Above50Perc="4" ></Daily>
+                  <Details>
+                    <Municipality Name="Keelakari" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="1"></Municipality>
+                    <Municipality Name="Ramanathapuram" Below10Perc="2" Below25Perc="4" Below50Perc="2" Above50Perc="2"></Municipality>
+                    <Municipality Name="Paramakudi" Below10Perc="3" Below25Perc="2" Below50Perc="1" Above50Perc="4"></Municipality>
+                    <Municipality Name="Rameshwaram" Below10Perc="2" Below25Perc="2" Below50Perc="2" Above50Perc="1"> </Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="22" Scheduled="23"></Daily>
+                  <Details>
+                    <Municipality Name="Keelakari" Cleaned="11" Scheduled="15"></Municipality>
+                    <Municipality Name="Ramanathapuram" Cleaned="25" Scheduled="10"></Municipality>
+                    <Municipality Name="Paramakudi" Cleaned="9" Scheduled="5"></Municipality>
+                    <Municipality Name="Rameshwaram" Cleaned="6" Scheduled="10"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Sivagangai">
+                <LPCD>
+                  <Daily Good="2" Comfortable="2" Poor="1" Acute="1" MPendingApproval="0"></Daily>
+                  <Weekly Good="1" Comfortable="1" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="1" Comfortable="1" Acute="3" Poor="0" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="4" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="4" Comfortable="3" Acute="2" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="82" ActionTaken="36"></Daily>
+                  <Details>
+                    <Municipality Name="Devakottai" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Karaikudi" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="1"></Municipality>
+                    <Municipality Name="Sivagangai" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="3" EB="1" Others="3"></Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="1" Below25Perc="2" Below50Perc="2" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Devakottai" Below10Perc="1" Below25Perc="2" Below50Perc="2" Above50Perc="4"></Municipality>
+                    <Municipality Name="Karaikudi" Below10Perc="2" Below25Perc="3" Below50Perc="2" Above50Perc="2"></Municipality>
+                    <Municipality Name="Sivagangai" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="1"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="12" Scheduled="23"></Daily>
+                  <Details>
+                    <Municipality Name="Devakottai" Cleaned="10" Scheduled="15"></Municipality>
+                    <Municipality Name="Karaikudi" Cleaned="15" Scheduled="10"></Municipality>
+                    <Municipality Name="Sivagangai" Cleaned="6" Scheduled="5"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Theni">
+                <LPCD>
+                  <Daily Good="3" Comfortable="2" Poor="1" Acute="0" MPendingApproval="1"></Daily>
+                  <Weekly Good="1" Comfortable="2" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="1" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="4" Comfortable="1" Acute="2" Poor="0" PendingApproval="2"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="62" ActionTaken="26"></Daily>
+                  <Details>
+                    <Municipality Name="Bodinayakanur" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+                    <Municipality Name="Chinnamanur" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="2"></Municipality>
+                    <Municipality Name="Cumbam" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="1" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Periyakulam" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="2"></Municipality>
+                    <Municipality Name="Theni-Allinagaram" starter="1" PowerCable="2" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Theni-Gudalur" starter="1" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="1" Below25Perc="2" Below50Perc="3" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Bodinayakanur" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="1"></Municipality>
+                    <Municipality Name="Chinnamanur" Below10Perc="3" Below25Perc="1" Below50Perc="2" Above50Perc="4"></Municipality>
+                    <Municipality Name="Cumbam" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="2"></Municipality>
+                    <Municipality Name="Periyakulam" Below10Perc="2" Below25Perc="1" Below50Perc="2" Above50Perc="2"> </Municipality>
+                    <Municipality Name="Theni-Allinagaram" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="2"></Municipality>
+                    <Municipality Name="Theni-Gudalur" Below10Perc="2" Below25Perc="2" Below50Perc="2" Above50Perc="4">
+                    </Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="12" Scheduled="15"></Daily>
+                  <Details>
+                    <Municipality Name="Bodinayakanur" Cleaned="11" Scheduled="7"></Municipality>
+                    <Municipality Name="Chinnamanur" Cleaned="16" Scheduled="5"></Municipality>
+                    <Municipality Name="Cumbam" Cleaned="9" Scheduled="5"></Municipality>
+                    <Municipality Name="Periyakulam" Cleaned="6" Scheduled="12"></Municipality>
+                    <Municipality Name="Theni-Allinagaram" Cleaned="9" Scheduled="5"></Municipality>
+                    <Municipality Name="Theni-Gudalur" Cleaned="6" Scheduled="10"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+            </DistrictData>
+          </Districts>
+        </Region>
+
+        <Region Name="Salem">
+          <Districts>
+            <DistrictAll>
+              <LPCD>
+                <Daily Good="1" Comfortable="3" Poor="1" Acute="2" MPendingApproval="2"></Daily>
+                <Weekly Good="2" Comfortable="3" Poor="3" Acute="3" MPendingApproval="1"></Weekly>
+                <Last3Days>
+                  <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                  <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="1" Poor="2" PendingApproval="1"></Day>
+                  <Day Date="10/05/2014"  Good="2" Comfortable="1" Acute="2" Poor="5" PendingApproval="4"></Day>
+                </Last3Days>
+              </LPCD>
+              <IssuesChart>
+                <Daily Reported="23" ActionTaken="13"></Daily>
+                <Details>
+                  <District Name="Dharmapuri" starter="3" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="1"></District>
+                  <District Name="Karur" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="3" Others="2"></District>
+                  <District Name="Krishnagiri" starter="2" PowerCable="3" SwitchBox="3" Motor="4" Pump="3" EB="1" Others="3"></District>
+                  <District Name="Namakkal" starter="5" PowerCable="2" SwitchBox="3" Motor="2" Pump="1" EB="2" Others="2"></District>
+                  <District Name="Salem" starter="1" PowerCable="2" SwitchBox="3" Motor="5" Pump="1" EB="1" Others="1"></District>
+                </Details>
+              </IssuesChart>
+              <SourceDataChart>
+                <Daily Below10Perc="7" Below25Perc="6" Below50Perc="2" Above50Perc="4" ></Daily>
+                <Details>
+                  <District Name="Dharmapuri" Below10Perc="10" Below25Perc="8" Below50Perc="6" Above50Perc="1"></District>
+                  <District Name="Karur" Below10Perc="6" Below25Perc="3" Below50Perc="3" Above50Perc="2"></District>
+                  <District Name="Krishnagiri" Below10Perc="7" Below25Perc="2" Below50Perc="3" Above50Perc="1"></District>
+                  <District Name="Namakkal" Below10Perc="2" Below25Perc="3" Below50Perc="2" Above50Perc="4"></District>
+                  <District Name="Salem" Below10Perc="5" Below25Perc="1" Below50Perc="3" Above50Perc="1"></District>
+                </Details>
+              </SourceDataChart>
+              <TankCleaning>
+                <Daily Cleaned="20" Scheduled="21"></Daily>
+                <Details>
+                  <District Name="Dharmapuri" Cleaned="30" Scheduled="60"></District>
+                  <District Name="Karur" Cleaned="5" Scheduled="8"></District>
+                  <District Name="Krishnagiri" Cleaned="7" Scheduled="15"></District>
+                  <District Name="Namakkal" Cleaned="7" Scheduled="8"></District>
+                  <District Name="Salem" Cleaned="2" Scheduled="5"></District>
+                </Details>
+              </TankCleaning>
+            </DistrictAll>
+            <DistrictData>
+              <District Name="Salem">
+                <LPCD>
+                  <Daily Good="4" Comfortable="2" Poor="1" Acute="2" MPendingApproval="3"></Daily>
+                  <Weekly Good="5" Comfortable="3" Poor="2" Acute="2" MPendingApproval="1"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="2" Poor="1" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="3" Comfortable="1" Acute="2" Poor="5" PendingApproval="0"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="22" ActionTaken="21"></Daily>
+                  <Details>
+                    <Municipality Name="Attur" starter="3" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Idappadi" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="2">
+                    </Municipality>
+                    <Municipality Name="Mettur" starter="1" PowerCable="2" SwitchBox="2" Motor="2" Pump="3" EB="1" Others="1">
+                    </Municipality>
+                    <Municipality Name="Narasingapurm" starter="5" PowerCable="1" SwitchBox="4" Motor="4" Pump="3" EB="6" Others="1">
+                    </Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="8" Below25Perc="7" Below50Perc="6" Above50Perc="2"></Daily>
+                  <Details>
+                    <Municipality Name="Attur" Below10Perc="10" Below25Perc="6" Below50Perc="3" Above50Perc="2">
+                    </Municipality>
+                    <Municipality Name="Idappadi" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="1">
+                    </Municipality>
+                    <Municipality Name="Mettur" Below10Perc="4" Below25Perc="1" Below50Perc="6" Above50Perc="3">
+                    </Municipality>
+                    <Municipality Name="Narasingapuram" Below10Perc="2" Below25Perc="1" Below50Perc="6" Above50Perc="2">
+                    </Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="30" Scheduled="35"></Daily>
+                  <Details>
+                    <Municipality Name="Attur" Cleaned="24" Scheduled="40">
+                    </Municipality>
+                    <Municipality Name="Idappadi" Cleaned="21" Scheduled="32">
+                    </Municipality>
+                    <Municipality Name="Mettur" Cleaned="5" Scheduled="5"></Municipality>
+                    <Municipality Name="Narasingapuram" Cleaned="3" Scheduled="6">
+                    </Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Namakkal">
+                <LPCD>
+                  <Daily Good="1" Comfortable="3" Poor="1" Acute="2" MPendingApproval="2"></Daily>
+                  <Weekly Good="2" Comfortable="2" Poor="2" Acute="4" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="1" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="2" Comfortable="1" Acute="2" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="18" ActionTaken="11"></Daily>
+                  <Details>
+                    <Municipality Name="Komarapalayam" starter="3" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Namakkal" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="4" Others="2">
+                    </Municipality>
+                    <Municipality Name="Pallipalayam" starter="1" PowerCable="2" SwitchBox="3" Motor="2" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Rasipuram" starter="3" PowerCable="2" SwitchBox="3" Motor="2" Pump="3" EB="1" Others="1">
+                    </Municipality>
+                    <Municipality Name="Tiruchengode" starter="2" PowerCable="2" SwitchBox="3" Motor="2" Pump="3" EB="1" Others="1">
+                    </Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="2" Below25Perc="2" Below50Perc="3" Above50Perc="1"></Daily>
+                  <Details>
+                    <Municipality Name="Komarapalayam" Below10Perc="12" Below25Perc="6" Below50Perc="7" Above50Perc="4"></Municipality>
+                    <Municipality Name="Namakkal" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="3"></Municipality>
+                    <Municipality Name="Pallipalayam" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="2"></Municipality>
+                    <Municipality Name="Rasipuram" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="4"></Municipality>
+                    <Municipality Name="Tiruchengode" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="1"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="20" Scheduled="35"></Daily>
+                  <Details>
+                    <Municipality Name="Komarapalayam" Cleaned="11" Scheduled="15"></Municipality>
+                    <Municipality Name="Namakkal" Cleaned="7" Scheduled="180"></Municipality>
+                    <Municipality Name="Pallipalayam" Cleaned="3" Scheduled="5"></Municipality>
+                    <Municipality Name="Rasipuram" Cleaned="2" Scheduled="5"></Municipality>
+                    <Municipality Name="Tiruchengode" Cleaned="1" Scheduled="5"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Krishnagiri">
+                <LPCD>
+                  <Daily Good="1" Comfortable="2" Poor="2" Acute="1" MPendingApproval="1"></Daily>
+                  <Weekly Good="1" Comfortable="1" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="6" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="1" Comfortable="1" Acute="2" Poor="1" PendingApproval="2"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="42" ActionTaken="36"></Daily>
+                  <Details>
+                    <Municipality Name="Hosur" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="1" EB="1" Others="2"></Municipality>
+                    <Municipality Name="Krishnagiri" starter="2" PowerCable="2" SwitchBox="3" Motor="2" Pump="3" EB="4" Others="3"></Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="1" Below25Perc="3" Below50Perc="1" Above50Perc="2"></Daily>
+                  <Details>
+                    <Municipality Name="Hosur" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="2"></Municipality>
+                    <Municipality Name="Krishnagiri" Below10Perc="2" Below25Perc="4" Below50Perc="2" Above50Perc="2"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="12" Scheduled="13"></Daily>
+                  <Details>
+                    <Municipality Name="Hosur" Cleaned="11" Scheduled="15"></Municipality>
+                    <Municipality Name="Krishnagiri" Cleaned="13" Scheduled="10"></Municipality>
+
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Karur">
+                <LPCD>
+                  <Daily Good="2" Comfortable="2" Poor="1" Acute="1" MPendingApproval="0"></Daily>
+                  <Weekly Good="1" Comfortable="1" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="2" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="4" Comfortable="1" Acute="2" Poor="1" PendingApproval="2"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="46" ActionTaken="36"></Daily>
+                  <Details>
+                    <Municipality Name="Karur" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+                    <Municipality Name="Kulithalai" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="2"></Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="3" Below25Perc="1" Below50Perc="2" Above50Perc="1"></Daily>
+                  <Details>
+                    <Municipality Name="Karur" Below10Perc="1" Below25Perc="2" Below50Perc="2" Above50Perc="2"></Municipality>
+                    <Municipality Name="Kulithalai" Below10Perc="2" Below25Perc="3" Below50Perc="2" Above50Perc="3"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="8" Scheduled="10"></Daily>
+                  <Details>
+                    <Municipality Name="Karur" Cleaned="10" Scheduled="15"></Municipality>
+                    <Municipality Name="Kulithalai" Cleaned="15" Scheduled="10"></Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Dharmapuri">
+                <LPCD>
+                  <Daily Good="0" Comfortable="0" Poor="1" Acute="0" MPendingApproval="0"></Daily>
+                  <Weekly Good="0" Comfortable="0" Poor="1" Acute="0" MPendingApproval="0"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="2" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="5" Comfortable="1" Acute="2" Poor="3" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="62" ActionTaken="26"></Daily>
+                  <Details>
+                    <Municipality Name="Dharmapuri" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="2" Below25Perc="2" Below50Perc="1" Above50Perc="1"></Daily>
+                  <Details>
+                    <Municipality Name="Dharmapuri" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="2"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="8" Scheduled="5"></Daily>
+                  <Details>
+                    <Municipality Name="Dharmapuri" Cleaned="11" Scheduled="7"></Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+            </DistrictData>
+          </Districts>
+        </Region>
+
+        <Region Name="Thanjavur">
+          <Districts>
+            <DistrictAll>
+              <LPCD>
+                <Daily Good="1" Comfortable="1" Poor="1" Acute="2" MPendingApproval="4"></Daily>
+                <Weekly Good="3" Comfortable="2" Poor="2" Acute="3" MPendingApproval="1"></Weekly>
+                <Last3Days>
+                  <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                  <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="2" Poor="2" PendingApproval="1"></Day>
+                  <Day Date="10/05/2014"  Good="1" Comfortable="1" Acute="2" Poor="1" PendingApproval="4"></Day>
+                </Last3Days>
+              </LPCD>
+              <IssuesChart>
+                <Daily Reported="76" ActionTaken="62"></Daily>
+                <Details>
+                  <District Name="Ariyalur" starter="3" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="1"></District>
+                  <District Name="Nagapattinam" starter="2" PowerCable="1" SwitchBox="2" Motor="3" Pump="3" EB="3" Others="2"></District>
+                  <District Name="Perambalur" starter="2" PowerCable="2" SwitchBox="3" Motor="6" Pump="3" EB="1" Others="3" ></District>
+                  <District Name="Puthukottai" starter="6" PowerCable="1" SwitchBox="3" Motor="2" Pump="3" EB="2" Others="2"></District>
+                  <District Name="Thanjavur" starter="1" PowerCable="2" SwitchBox="3" Motor="3" Pump="1" EB="2" Others="1"></District>
+                  <District Name="Tiruchirappali" starter="1" PowerCable="3" SwitchBox="3" Motor="5" Pump="1" EB="1" Others="3"></District>
+                  <District Name="Tiruvarur" starter="1" PowerCable="2" SwitchBox="3" Motor="4" Pump="1" EB="1" Others="2"></District>
+                </Details>
+              </IssuesChart>
+              <SourceDataChart>
+                <Daily Below10Perc="6" Below25Perc="7" Below50Perc="3" Above50Perc="1"></Daily>
+                <Details>
+                  <District Name="Ariyalur" Below10Perc="7" Below25Perc="8" Below50Perc="6" Above50Perc="1"></District>
+                  <District Name="Nagapattinam" Below10Perc="5" Below25Perc="3" Below50Perc="3" Above50Perc="2"></District>
+                  <District Name="Perambalur" Below10Perc="3" Below25Perc="2" Below50Perc="3" Above50Perc="4"></District>
+                  <District Name="Puthukottai" Below10Perc="2" Below25Perc="2" Below50Perc="2" Above50Perc="3"></District>
+                  <District Name="Thanjavur" Below10Perc="5" Below25Perc="1" Below50Perc="3" Above50Perc="1"></District>
+                  <District Name="Tiruchirappali" Below10Perc="2" Below25Perc="3" Below50Perc="2" Above50Perc="2"></District>
+                  <District Name="Tiruvarur" Below10Perc="5" Below25Perc="1" Below50Perc="3" Above50Perc="4"></District>
+                </Details>
+              </SourceDataChart>
+              <TankCleaning>
+                <Daily Cleaned="22" Scheduled="20"></Daily>
+                <Details>
+                  <District Name="Ariyalur" Cleaned="30" Scheduled="60"></District>
+                  <District Name="Nagapattinam" Cleaned="11" Scheduled="12"></District>
+                  <District Name="Perambalur" Cleaned="10" Scheduled="5"></District>
+                  <District Name="Puthukottai" Cleaned="16" Scheduled="18"></District>
+                  <District Name="Thanjavur" Cleaned="2" Scheduled="5"></District>
+                  <District Name="Tiruchirappali" Cleaned="16" Scheduled="18"></District>
+                  <District Name="Tiruvarur" Cleaned="2" Scheduled="5"></District>
+                </Details>
+              </TankCleaning>
+            </DistrictAll>
+            <DistrictData>
+              <District Name="Ariyalur">
+                <LPCD>
+                  <Daily Good="3" Comfortable="2" Poor="1" Acute="2" MPendingApproval="1"></Daily>
+                  <Weekly Good="4" Comfortable="3" Poor="2" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="6" Poor="0" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="1" Comfortable="1" Acute="2" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="32" ActionTaken="30"></Daily>
+                  <Details>
+                    <Municipality Name="Ariyalur" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Jayamkondam" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3">
+                    </Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="8" Below25Perc="9" Below50Perc="6" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Ariyalur" Below10Perc="10" Below25Perc="6" Below50Perc="3" Above50Perc="1">
+                    </Municipality>
+                    <Municipality Name="Jayamkondam" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="1">
+                    </Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="23" Scheduled="24"></Daily>
+                  <Details>
+                    <Municipality Name="Ariyalur" Cleaned="24" Scheduled="40">
+                    </Municipality>
+                    <Municipality Name="Jayamkondam" Cleaned="21" Scheduled="32">
+                    </Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Nagapattinam">
+                <LPCD>
+                  <Daily Good="1" Comfortable="3" Poor="0" Acute="2" MPendingApproval="1"></Daily>
+                  <Weekly Good="1" Comfortable="2" Poor="2" Acute="4" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="0" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="1" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="4" Comfortable="1" Acute="2" Poor="5" PendingApproval="2"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="16" ActionTaken="12"></Daily>
+                  <Details>
+                    <Municipality Name="Mayiladuthurai" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Nagapattinam" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="4" Others="1">
+                    </Municipality>
+                    <Municipality Name="Sirkali" starter="1" PowerCable="2" SwitchBox="3" Motor="2" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Vedaraniyam" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="2">
+                    </Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="1"></Daily>
+                  <Details>
+                    <Municipality Name="Mayiladuthurai" Below10Perc="17" Below25Perc="18" Below50Perc="6" Above50Perc="3"></Municipality>
+                    <Municipality Name="Nagapattinam" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="2"></Municipality>
+                    <Municipality Name="Sirkali" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="1"></Municipality>
+                    <Municipality Name="Vedaraniyam" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="2"></Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="18" Scheduled="22"></Daily>
+                  <Details>
+                    <Municipality Name="Mayiladuthurai" Cleaned="11" Scheduled="15"></Municipality>
+                    <Municipality Name="Nagapattinam" Cleaned="10" Scheduled="10"></Municipality>
+                    <Municipality Name="Sirkali" Cleaned="3" Scheduled="5"></Municipality>
+                    <Municipality Name="Vedaraniyam" Cleaned="3" Scheduled="5"></Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Perambalur">
+                <LPCD>
+                  <Daily Good="1" Comfortable="2" Poor="3" Acute="0" MPendingApproval="0"></Daily>
+                  <Weekly Good="1" Comfortable="1" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="6" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="2" Comfortable="1" Acute="2" Poor="5" PendingApproval="2"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="23" ActionTaken="16"></Daily>
+                  <Details>
+                    <Municipality Name="Perambalur" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="2"></Daily>
+                  <Details>
+                    <Municipality Name="Perambalur" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="1"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="12" Scheduled="15"></Daily>
+                  <Details>
+                    <Municipality Name="Perambalur" Cleaned="11" Scheduled="15"></Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Pudukottai">
+                <LPCD>
+                  <Daily Good="1" Comfortable="1" Poor="1" Acute="3" MPendingApproval="2"></Daily>
+                  <Weekly Good="1" Comfortable="1" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="1" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="4" Comfortable="1" Acute="2" Poor="3" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="36" ActionTaken="24"></Daily>
+                  <Details>
+                    <Municipality Name="Pudukottai" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Aranthangi" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="1"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="3" Below25Perc="1" Below50Perc="2" Above50Perc="1"></Daily>
+                  <Details>
+                    <Municipality Name="Pudukottai" Below10Perc="1" Below25Perc="2" Below50Perc="2" Above50Perc="2"></Municipality>
+                    <Municipality Name="Aranthangi" Below10Perc="2" Below25Perc="3" Below50Perc="2" Above50Perc="2"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="3" Scheduled="4"></Daily>
+                  <Details>
+                    <Municipality Name="Pudukottai" Cleaned="10" Scheduled="15"></Municipality>
+                    <Municipality Name="Aranthangi" Cleaned="15" Scheduled="10"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Tiruvarur">
+                <LPCD>
+                  <Daily Good="2" Comfortable="0" Poor="1" Acute="0" MPendingApproval="1"></Daily>
+                  <Weekly Good="1" Comfortable="1" Poor="1" Acute="1" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="6" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="4" Comfortable="1" Acute="2" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="21" ActionTaken="16"></Daily>
+                  <Details>
+                    <Municipality Name="Koothanallur" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Mannargudi" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="1"></Municipality>
+                    <Municipality Name="Thiruthuraipoondi" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="1" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Thiruvarur" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="2"></Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="3" Below25Perc="1" Below50Perc="2" Above50Perc="3"></Daily>
+                  <Details>
+                    <Municipality Name="Koothanallur" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="4"></Municipality>
+                    <Municipality Name="Mannargudi" Below10Perc="3" Below25Perc="1" Below50Perc="2" Above50Perc="1"></Municipality>
+                    <Municipality Name="Thiruthuraipoondi" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="2"></Municipality>
+                    <Municipality Name="Thiruvarur" Below10Perc="2" Below25Perc="1" Below50Perc="2" Above50Perc="1"> </Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="10" Scheduled="11"></Daily>
+                  <Details>
+                    <Municipality Name="Koothanallur" Cleaned="5" Scheduled="7"></Municipality>
+                    <Municipality Name="Mannargudi" Cleaned="4" Scheduled="5"></Municipality>
+                    <Municipality Name="Thiruthuraipoondi" Cleaned="3" Scheduled="5"></Municipality>
+                    <Municipality Name="Thiruvarur" Cleaned="2" Scheduled="8"></Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Thanjavur">
+                <LPCD>
+                  <Daily Good="1" Comfortable="3" Poor="0" Acute="0" MPendingApproval="1"></Daily>
+                  <Weekly Good="1" Comfortable="1" Poor="1" Acute="1" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="2" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="1" Comfortable="1" Acute="2" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="30" ActionTaken="25"></Daily>
+                  <Details>
+                    <Municipality Name="Kumbakonam" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="2"></Municipality>
+                    <Municipality Name="Pattukottai" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3"></Municipality>
+                    <Municipality Name="Thanjavur" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="1" EB="1" Others="1"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="1" Below25Perc="1" Below50Perc="2" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Kumbakonam" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="4"></Municipality>
+                    <Municipality Name="Pattukottai" Below10Perc="3" Below25Perc="1" Below50Perc="2" Above50Perc="2"></Municipality>
+                    <Municipality Name="Thanjavur" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="4"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="7" Scheduled="9"></Daily>
+                  <Details>
+                    <Municipality Name="Kumbakonam" Cleaned="5" Scheduled="7"></Municipality>
+                    <Municipality Name="Pattukottai" Cleaned="4" Scheduled="5"></Municipality>
+                    <Municipality Name="Thanjavur" Cleaned="3" Scheduled="5"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+              <District Name="Tiruchirappalli">
+                <LPCD>
+                  <Daily Good="1" Comfortable="1" Poor="1" Acute="1" MPendingApproval="1"></Daily>
+                  <Weekly Good="1" Comfortable="1" Poor="1" Acute="1" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="2" Comfortable="2" Acute="2" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="1" Comfortable="1" Acute="2" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="22" ActionTaken="18"></Daily>
+                  <Details>
+                    <Municipality Name="Manapparai" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+                    <Municipality Name="Thuvakudi" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3"></Municipality>
+                    <Municipality Name="Thuraiyur" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="1" EB="1" Others="2"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="2" Below25Perc="1" Below50Perc="0" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Manapparai" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="1"></Municipality>
+                    <Municipality Name="Thuvakudi" Below10Perc="3" Below25Perc="1" Below50Perc="2" Above50Perc="4"></Municipality>
+                    <Municipality Name="Thuraiyur" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="2"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="10" Scheduled="11"></Daily>
+                  <Details>
+                    <Municipality Name="Manapparai" Cleaned="5" Scheduled="7"></Municipality>
+                    <Municipality Name="Thuvakudi" Cleaned="4" Scheduled="5"></Municipality>
+                    <Municipality Name="Thuraiyur" Cleaned="3" Scheduled="5"></Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+            </DistrictData>
+          </Districts>
+        </Region>
+
+        <Region Name="Tirunelveli">
+          <Districts>
+            <DistrictAll>
+              <LPCD>
+                <Daily Good="2" Comfortable="2" Poor="1" Acute="2" MPendingApproval="2"></Daily>
+                <Weekly Good="3" Comfortable="2" Poor="2" Acute="3" MPendingApproval="1"></Weekly>
+                <Last3Days>
+                  <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                  <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="6" Poor="2" PendingApproval="1"></Day>
+                  <Day Date="10/05/2014"  Good="4" Comfortable="1" Acute="2" Poor="5" PendingApproval="4"></Day>
+                </Last3Days>
+              </LPCD>
+              <IssuesChart>
+                <Daily Reported="35" ActionTaken="32"></Daily>
+                <Details>
+                  <District Name="Kanniyakumari" starter="3" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="1"></District>
+                  <District Name="Thoothukudi" starter="2" PowerCable="1" SwitchBox="2" Motor="3" Pump="3" EB="3" Others="2"></District>
+                  <District Name="Tirunelveli" starter="2" PowerCable="2" SwitchBox="3" Motor="6" Pump="3" EB="1" Others="3"></District>
+                  <District Name="Viruthunagar" starter="6" PowerCable="1" SwitchBox="3" Motor="2" Pump="3" EB="2" Others="2" ></District>
+                </Details>
+              </IssuesChart>
+              <SourceDataChart>
+                <Daily Below10Perc="4" Below25Perc="3" Below50Perc="3" Above50Perc="1"></Daily>
+                <Details>
+                  <District Name="Kanniyakumari" Below10Perc="7" Below25Perc="8" Below50Perc="6" Above50Perc="4"></District>
+                  <District Name="Thoothukudi" Below10Perc="3" Below25Perc="3" Below50Perc="3" Above50Perc="2"></District>
+                  <District Name="Tirunelveli" Below10Perc="3" Below25Perc="2" Below50Perc="3" Above50Perc="4"></District>
+                  <District Name="Viruthunagar" Below10Perc="2" Below25Perc="1" Below50Perc="2" Above50Perc="1"></District>
+
+                </Details>
+              </SourceDataChart>
+              <TankCleaning>
+                <Daily Cleaned="22" Scheduled="20"></Daily>
+                <Details>
+                  <District Name="Kanniyakumari" Cleaned="30" Scheduled="60"></District>
+                  <District Name="Thoothukudi" Cleaned="11" Scheduled="12"></District>
+                  <District Name="Tirunelveli" Cleaned="10" Scheduled="5"></District>
+                  <District Name="Viruthunagar" Cleaned="16" Scheduled="18"></District>
+                </Details>
+              </TankCleaning>
+            </DistrictAll>
+            <DistrictData>
+              <District Name="Kanniyakumari">
+                <LPCD>
+                  <Daily Good="1" Comfortable="3" Poor="1" Acute="0" MPendingApproval="1"></Daily>
+                  <Weekly Good="4" Comfortable="3" Poor="2" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="1" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="2" Comfortable="2" Acute="3" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="4" Comfortable="1" Acute="2" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="32" ActionTaken="30"></Daily>
+                  <Details>
+                    <Municipality Name="Kolachel" starter="3" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="1">
+                    </Municipality>
+                    <Municipality Name="Kuzhithurai" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3">
+                    </Municipality>
+                    <Municipality Name="Nagercoil" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="2">
+                    </Municipality>
+                    <Municipality Name="Padmanabhapuram" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3">
+                    </Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="8" Below25Perc="9" Below50Perc="6" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Kolachel" Below10Perc="10" Below25Perc="6" Below50Perc="3" Above50Perc="2">
+                    </Municipality>
+                    <Municipality Name="Kuzhithurai" Below10Perc="2" Below25Perc="3" Below50Perc="3" Above50Perc="1">
+                    </Municipality>
+                    <Municipality Name="Nagercoil" Below10Perc="2" Below25Perc="2" Below50Perc="3" Above50Perc="2">
+                    </Municipality>
+                    <Municipality Name="Padmanabhapuram" Below10Perc="5" Below25Perc="8" Below50Perc="3" Above50Perc="1">
+                    </Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="32" Scheduled="24"></Daily>
+                  <Details>
+                    <Municipality Name="Kolachel" Cleaned="24" Scheduled="40">
+                    </Municipality>
+                    <Municipality Name="Kuzhithurai" Cleaned="21" Scheduled="32">
+                    </Municipality>
+                    <Municipality Name="Nagercoil" Cleaned="11" Scheduled="32">
+                    </Municipality>
+                    <Municipality Name="Padmanabhapuram" Cleaned="11" Scheduled="22">
+                    </Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Thoothukudi">
+                <LPCD>
+                  <Daily Good="2" Comfortable="0" Poor="0" Acute="0" MPendingApproval="0"></Daily>
+                  <Weekly Good="1" Comfortable="0" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014"  Good="2" Comfortable="1" Acute="3" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014"  Good="3" Comfortable="2" Acute="3" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014"  Good="2" Comfortable="1" Acute="2" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="62" ActionTaken="26"></Daily>
+                  <Details>
+                    <Municipality Name="KayalPattinam" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Kovilpatti" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="1" Below25Perc="1" Below50Perc="0" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="KayalPattinam" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="4"></Municipality>
+                    <Municipality Name="Kovilpatti" Below10Perc="3" Below25Perc="1" Below50Perc="2" Above50Perc="1"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="9" Scheduled="11"></Daily>
+                  <Details>
+                    <Municipality Name="KayalPattinam" Cleaned="11" Scheduled="7"></Municipality>
+                    <Municipality Name="Kovilpatti" Cleaned="16" Scheduled="5"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Tirunelveli">
+                <LPCD>
+                  <Daily Good="3" Comfortable="1" Poor="1" Acute="0" MPendingApproval="1"></Daily>
+                  <Weekly Good="1" Comfortable="2" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014" Good="3" Comfortable="1" Acute="2" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014" Good="2" Comfortable="2" Acute="4" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="34" ActionTaken="21"></Daily>
+                  <Details>
+                    <Municipality Name="Ambasamudram" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Kadayanallur" starter="2" PowerCable="5" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="2"></Municipality>
+                    <Municipality Name="Pulliyankudi" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="1" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Sankarankovil" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+                    <Municipality Name="Sengottai" starter="1" PowerCable="2" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+                    <Municipality Name="Tenkasi" starter="1" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Vickramasingapuram" starter="4" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="1" Below25Perc="2" Below50Perc="3" Above50Perc="1"></Daily>
+                  <Details>
+                    <Municipality Name="Ambasamudram" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="3"></Municipality>
+                    <Municipality Name="Kadayanallur" Below10Perc="3" Below25Perc="1" Below50Perc="2" Above50Perc="2"></Municipality>
+                    <Municipality Name="Pulliyankudi" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="1"></Municipality>
+                    <Municipality Name="Sankarankovil" Below10Perc="2" Below25Perc="1" Below50Perc="3" Above50Perc="2"> </Municipality>
+                    <Municipality Name="Sengottai" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="4"></Municipality>
+                    <Municipality Name="Tenkasi" Below10Perc="2" Below25Perc="2" Below50Perc="2" Above50Perc="3"></Municipality>
+                    <Municipality Name="Vickramasingapuram" Below10Perc="2" Below25Perc="2" Below50Perc="2" Above50Perc="4"></Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="12" Scheduled="15"></Daily>
+                  <Details>
+                    <Municipality Name="Ambasamudram" Cleaned="9" Scheduled="7"></Municipality>
+                    <Municipality Name="Kadayanallur" Cleaned="7" Scheduled="5"></Municipality>
+                    <Municipality Name="Pulliyankudi" Cleaned="8" Scheduled="5"></Municipality>
+                    <Municipality Name="Sankarankovil" Cleaned="6" Scheduled="12"></Municipality>
+                    <Municipality Name="Sengottai" Cleaned="9" Scheduled="5"></Municipality>
+                    <Municipality Name="Tenkasi" Cleaned="6" Scheduled="10"></Municipality>
+                    <Municipality Name="Vickramasingapuram" Cleaned="6" Scheduled="10"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Viruthunagar">
+                <LPCD>
+                  <Daily Good="1" Comfortable="2" Poor="1" Acute="0" MPendingApproval="1"></Daily>
+                  <Weekly Good="3" Comfortable="1" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014" Good="3" Comfortable="1" Acute="2" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014" Good="2" Comfortable="2" Acute="2" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="1" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="48" ActionTaken="36"></Daily>
+                  <Details>
+                    <Municipality Name="Aruppukottai" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="2"></Municipality>
+                    <Municipality Name="Rajapalayam" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3"></Municipality>
+                    <Municipality Name="Sattur" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="1" EB="1" Others="1"></Municipality>
+                    <Municipality Name="Sivakasi" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Thiruthangal" starter="1" PowerCable="2" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Srivilliputhur" starter="1" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="2"></Municipality>
+                    <Municipality Name="Virudhunagar" starter="1" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Aruppukottai" Below10Perc="2" Below25Perc="2" Below50Perc="2" Above50Perc="4"></Municipality>
+                    <Municipality Name="Rajapalayam" Below10Perc="1" Below25Perc="1" Below50Perc="2" Above50Perc="2"></Municipality>
+                    <Municipality Name="Sattur" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="4"></Municipality>
+                    <Municipality Name="Sivakasi" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="2"> </Municipality>
+                    <Municipality Name="Thiruthangal" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="4"></Municipality>
+                    <Municipality Name="Srivilliputhur" Below10Perc="1" Below25Perc="2" Below50Perc="2" Above50Perc="2">
+                      <Municipality Name="Virudhunagar" Below10Perc="2" Below25Perc="1" Below50Perc="2" Above50Perc="4"> </Municipality>
+                    </Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="4" Scheduled="6"></Daily>
+                  <Details>
+                    <Municipality Name="Aruppukottai" Cleaned="11" Scheduled="7"></Municipality>
+                    <Municipality Name="Rajapalayam" Cleaned="16" Scheduled="5"></Municipality>
+                    <Municipality Name="Sattur" Cleaned="9" Scheduled="5"></Municipality>
+                    <Municipality Name="Sivakasi" Cleaned="6" Scheduled="9"></Municipality>
+                    <Municipality Name="Thiruthangal" Cleaned="4" Scheduled="5"></Municipality>
+                    <Municipality Name="Srivilliputhur" Cleaned="6" Scheduled="10"></Municipality>
+                    <Municipality Name="Virudhunagar" Cleaned="6" Scheduled="10"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+            </DistrictData>
+          </Districts>
+        </Region>
+
+        <Region Name="Tiruppur">
+          <Districts>
+            <DistrictAll>
+              <LPCD>
+                <Daily Good="2" Comfortable="1" Poor="1" Acute="1" MPendingApproval="4"></Daily>
+                <Weekly Good="3" Comfortable="2" Poor="3" Acute="1" MPendingApproval="1"></Weekly>
+                <Last3Days>
+                  <Day Date="08/05/2014" Good="3" Comfortable="1" Acute="2" Poor="2" PendingApproval="3"></Day>
+                  <Day Date="09/05/2014" Good="4" Comfortable="2" Acute="4" Poor="2" PendingApproval="1"></Day>
+                  <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="2" PendingApproval="4"></Day>
+                </Last3Days>
+              </LPCD>
+              <IssuesChart>
+                <Daily Reported="40" ActionTaken="32"></Daily>
+                <Details>
+                  <District Name="Coimbatore" starter="3" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3"></District>
+                  <District Name="Erode" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="3" Others="1"></District>
+                  <District Name="Nilgiris" starter="2" PowerCable="3" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3"></District>
+                  <District Name="Tiruppur" starter="5" PowerCable="4" SwitchBox="3" Motor="5" Pump="3" EB="2" Others="2"></District>
+                </Details>
+              </IssuesChart>
+              <SourceDataChart>
+                <Daily Below10Perc="15" Below25Perc="10" Below50Perc="6" Above50Perc="2"></Daily>
+                <Details>
+                  <District Name="Coimbatore" Below10Perc="10" Below25Perc="8" Below50Perc="46" Above50Perc="1"></District>
+                  <District Name="Erode" Below10Perc="6" Below25Perc="3" Below50Perc="3" Above50Perc="3"></District>
+                  <District Name="Nilgiris" Below10Perc="7" Below25Perc="2" Below50Perc="3" Above50Perc="2"></District>
+                  <District Name="Tiruppur" Below10Perc="2" Below25Perc="3" Below50Perc="2" Above50Perc="1"></District>
+
+                </Details>
+              </SourceDataChart>
+              <TankCleaning>
+                <Daily Cleaned="90" Scheduled="60"></Daily>
+                <Details>
+                  <District Name="Coimbatore" Cleaned="30" Scheduled="60"></District>
+                  <District Name="Erode" Cleaned="11" Scheduled="12"></District>
+                  <District Name="Nilgiris" Cleaned="10" Scheduled="5"></District>
+                  <District Name="Tiruppur" Cleaned="16" Scheduled="18"></District>
+
+                </Details>
+              </TankCleaning>
+            </DistrictAll>
+            <DistrictData>
+              <District Name="Coimbatore">
+                <LPCD>
+                  <Daily Good="4" Comfortable="1" Poor="1" Acute="2" MPendingApproval="1"></Daily>
+                  <Weekly Good="7" Comfortable="3" Poor="4" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014" Good="1" Comfortable="1" Acute="2" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014" Good="2" Comfortable="2" Acute="2" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="5" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="48" ActionTaken="32"></Daily>
+                  <Details>
+                    <Municipality Name="Mettu pallayam" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Pollachi" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3">
+                    </Municipality>
+                    <Municipality Name="Valparai" starter="1" PowerCable="2" SwitchBox="2" Motor="2" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="9" Below25Perc="13" Below50Perc="6" Above50Perc="1"></Daily>
+                  <Details>
+                    <Municipality Name="Mettu pallayam" Below10Perc="9" Below25Perc="6" Below50Perc="3" Above50Perc="2">
+                    </Municipality>
+                    <Municipality Name="Pollachi" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="3">
+                    </Municipality>
+                    <Municipality Name="Valparai" Below10Perc="4" Below25Perc="1" Below50Perc="6" Above50Perc="4">
+                    </Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="40" Scheduled="41"></Daily>
+                  <Details>
+                    <Municipality Name="Mettu pallayam" Cleaned="24" Scheduled="40">
+                    </Municipality>
+                    <Municipality Name="Pollachi" Cleaned="21" Scheduled="32">
+                    </Municipality>
+                    <Municipality Name="Valparai" Cleaned="5" Scheduled="5"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Erode">
+                <LPCD>
+                  <Daily Good="1" Comfortable="1" Poor="0" Acute="2" MPendingApproval="3"></Daily>
+                  <Weekly Good="2" Comfortable="2" Poor="2" Acute="4" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014" Good="1" Comfortable="2" Acute="2" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014" Good="2" Comfortable="2" Acute="3" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="2" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="22" ActionTaken="12"></Daily>
+                  <Details>
+                    <Municipality Name="Bhavani" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="2">
+                    </Municipality>
+                    <Municipality Name="Gobichettypalayam" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="4" Others="3">
+                    </Municipality>
+                    <Municipality Name="PunjaiPuliam" starter="1" PowerCable="2" SwitchBox="3" Motor="2" Pump="3" EB="1" Others="1">
+                    </Municipality>
+                    <Municipality Name="Sathyamanagalam" starter="2" PowerCable="2" SwitchBox="3" Motor="2" Pump="1" EB="1" Others="3">
+                    </Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="3" Below25Perc="2" Below50Perc="1" Above50Perc="2"></Daily>
+                  <Details>
+                    <Municipality Name="Bhavani" Below10Perc="17" Below25Perc="18" Below50Perc="6" Above50Perc="4"></Municipality>
+                    <Municipality Name="Gobichettypalayam" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="1"></Municipality>
+                    <Municipality Name="PunjaiPuliam" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="4"></Municipality>
+                    <Municipality Name="Sathyamanagalam" Below10Perc="2" Below25Perc="1" Below50Perc="1" Above50Perc="1"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="15" Scheduled="20"></Daily>
+                  <Details>
+                    <Municipality Name="Bhavani" Cleaned="11" Scheduled="15"></Municipality>
+                    <Municipality Name="Gobichettypalayam" Cleaned="10" Scheduled="10"></Municipality>
+                    <Municipality Name="PunjaiPuliam" Cleaned="3" Scheduled="5"></Municipality>
+                    <Municipality Name="Sathyamanagalam" Cleaned="3" Scheduled="6"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Nilgiris">
+                <LPCD>
+                  <Daily Good="1" Comfortable="0" Poor="1" Acute="0" MPendingApproval="0"></Daily>
+                  <Weekly Good="1" Comfortable="1" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014" Good="3" Comfortable="1" Acute="2" Poor="3" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014" Good="2" Comfortable="2" Acute="1" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="5" PendingApproval="2"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="82" ActionTaken="36"></Daily>
+                  <Details>
+                    <Municipality Name="Coonoor" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+                    <Municipality Name="Gudalur" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3"></Municipality>
+                    <Municipality Name="Nelliyalam" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="3" EB="1" Others="2"></Municipality>
+                    <Municipality Name="Udhgamandalam" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="2" Below25Perc="1" Below50Perc="1" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Coonoor" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="1"></Municipality>
+                    <Municipality Name="Gudalur" Below10Perc="2" Below25Perc="4" Below50Perc="2" Above50Perc="2"></Municipality>
+                    <Municipality Name="Nelliyalam" Below10Perc="3" Below25Perc="2" Below50Perc="1" Above50Perc="1"></Municipality>
+                    <Municipality Name="Udhgamandalam" Below10Perc="2" Below25Perc="2" Below50Perc="2" Above50Perc="4"> </Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="18" Scheduled="21"></Daily>
+                  <Details>
+                    <Municipality Name="Coonoor" Cleaned="11" Scheduled="15"></Municipality>
+                    <Municipality Name="Gudalur" Cleaned="25" Scheduled="10"></Municipality>
+                    <Municipality Name="Nelliyalam" Cleaned="9" Scheduled="5"></Municipality>
+                    <Municipality Name="Udhgamandalam" Cleaned="6" Scheduled="10"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Tirupur">
+                <LPCD>
+                  <Daily Good="0" Comfortable="1" Poor="1" Acute="1" MPendingApproval="0"></Daily>
+                  <Weekly Good="1" Comfortable="0" Poor="1" Acute="0" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014" Good="2" Comfortable="1" Acute="2" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014" Good="2" Comfortable="2" Acute="0" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="5" PendingApproval="1"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="42" ActionTaken="22"></Daily>
+                  <Details>
+                    <Municipality Name="Dharapuram" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="2"></Municipality>
+                    <Municipality Name="Kangayam" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="1"></Municipality>
+                    <Municipality Name="Palladam" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Udumalpet" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="2"></Municipality>
+                    <Municipality Name="Vellakoil" starter="1" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="1"></Daily>
+                  <Details>
+                    <Municipality Name="Dharapuram" Below10Perc="1" Below25Perc="2" Below50Perc="2" Above50Perc="1"></Municipality>
+                    <Municipality Name="Kangayam" Below10Perc="2" Below25Perc="3" Below50Perc="2" Above50Perc="4"></Municipality>
+                    <Municipality Name="Palladam" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="2"></Municipality>
+                    <Municipality Name="Udumalpet" Below10Perc="2" Below25Perc="3" Below50Perc="2" Above50Perc="1"></Municipality>
+                    <Municipality Name="Vellakoil" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="3"></Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="12" Scheduled="18"></Daily>
+                  <Details>
+                    <Municipality Name="Dharapuram" Cleaned="10" Scheduled="15"></Municipality>
+                    <Municipality Name="Kangayam" Cleaned="15" Scheduled="10"></Municipality>
+                    <Municipality Name="Palladam" Cleaned="6" Scheduled="5"></Municipality>
+                    <Municipality Name="Udumalpet" Cleaned="15" Scheduled="10"></Municipality>
+                    <Municipality Name="Vellakoil" Cleaned="6" Scheduled="5"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Theni">
+                <LPCD>
+                  <Daily Good="3" Comfortable="2" Poor="1" Acute="0" MPendingApproval="1"></Daily>
+                  <Weekly Good="1" Comfortable="2" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014" Good="1" Comfortable="1" Acute="2" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014" Good="2" Comfortable="2" Acute="4" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="3" PendingApproval="2"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="62" ActionTaken="26"></Daily>
+                  <Details>
+                    <Municipality Name="Bodinayakanur" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Chinnamanur" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="1"></Municipality>
+                    <Municipality Name="Cumbam" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="1" EB="1" Others="2"></Municipality>
+                    <Municipality Name="Periyakulam" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+                    <Municipality Name="Theni-Allinagaram" starter="1" PowerCable="2" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Theni-Gudalur" starter="1" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="1" Others="1"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="1" Below25Perc="2" Below50Perc="3" Above50Perc="4" ></Daily>
+                  <Details>
+                    <Municipality Name="Bodinayakanur" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="1"></Municipality>
+                    <Municipality Name="Chinnamanur" Below10Perc="3" Below25Perc="1" Below50Perc="2" Above50Perc="2"></Municipality>
+                    <Municipality Name="Cumbam" Below10Perc="1" Below25Perc="2" Below50Perc="1" Above50Perc="4"></Municipality>
+                    <Municipality Name="Periyakulam" Below10Perc="2" Below25Perc="1" Below50Perc="2" Above50Perc="2"> </Municipality>
+                    <Municipality Name="Theni-Allinagaram" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="4"></Municipality>
+                    <Municipality Name="Theni-Gudalur" Below10Perc="2" Below25Perc="2" Below50Perc="2" Above50Perc="1">
+                    </Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="12" Scheduled="15"></Daily>
+                  <Details>
+                    <Municipality Name="Bodinayakanur" Cleaned="11" Scheduled="7"></Municipality>
+                    <Municipality Name="Chinnamanur" Cleaned="16" Scheduled="5"></Municipality>
+                    <Municipality Name="Cumbam" Cleaned="9" Scheduled="5"></Municipality>
+                    <Municipality Name="Periyakulam" Cleaned="6" Scheduled="12"></Municipality>
+                    <Municipality Name="Theni-Allinagaram" Cleaned="9" Scheduled="5"></Municipality>
+                    <Municipality Name="Theni-Gudalur" Cleaned="6" Scheduled="10"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+            </DistrictData>
+          </Districts>
+        </Region>
+
+        <Region Name="Vellore">
+          <Districts>
+            <DistrictAll>
+              <LPCD>
+                <Daily Good="0" Comfortable="1" Poor="0" Acute="1" MPendingApproval="4"></Daily>
+                <Weekly Good="0" Comfortable="2" Poor="3" Acute="1" MPendingApproval="1"></Weekly>
+                <Last3Days>
+                  <Day Date="08/05/2014" Good="4" Comfortable="1" Acute="2" Poor="2" PendingApproval="3"></Day>
+                  <Day Date="09/05/2014" Good="1" Comfortable="2" Acute="4" Poor="2" PendingApproval="1"></Day>
+                  <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="5" PendingApproval="2"></Day>
+                </Last3Days>
+              </LPCD>
+              <IssuesChart>
+                <Daily Reported="32" ActionTaken="28"></Daily>
+                <Details>
+                  <District Name="Tiruvanamalai" starter="3" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3"></District>
+                  <District Name="Vellore" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="3" Others="1"></District>
+                  <District Name="Villupuram" starter="2" PowerCable="3" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="2"></District>
+                </Details>
+              </IssuesChart>
+              <SourceDataChart>
+                <Daily Below10Perc="9" Below25Perc="10" Below50Perc="6" Above50Perc="4"></Daily>
+                <Details>
+                  <District Name="Tiruvanamalai" Below10Perc="10" Below25Perc="8" Below50Perc="46" Above50Perc="1"></District>
+                  <District Name="Vellore" Below10Perc="6" Below25Perc="3" Below50Perc="3" Above50Perc="1"></District>
+                  <District Name="Villupuram" Below10Perc="7" Below25Perc="2" Below50Perc="3" Above50Perc="2"></District>
+                </Details>
+              </SourceDataChart>
+              <TankCleaning>
+                <Daily Cleaned="23" Scheduled="11"></Daily>
+                <Details>
+                  <District Name="Tiruvanamalai" Cleaned="30" Scheduled="60"></District>
+                  <District Name="Vellore" Cleaned="11" Scheduled="12"></District>
+                  <District Name="Villupuram" Cleaned="10" Scheduled="5"></District>
+
+
+                </Details>
+              </TankCleaning>
+            </DistrictAll>
+            <DistrictData>
+              <District Name="Tiruvanamalai">
+                <LPCD>
+                  <Daily Good="2" Comfortable="2" Poor="1" Acute="0" MPendingApproval="1"></Daily>
+                  <Weekly Good="7" Comfortable="3" Poor="4" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014" Good="1" Comfortable="1" Acute="2" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014" Good="2" Comfortable="2" Acute="4" Poor="1" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="5" PendingApproval="2"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="11" ActionTaken="9"></Daily>
+                  <Details>
+                    <Municipality Name="Arani" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="1">
+                    </Municipality>
+                    <Municipality Name="Tiruvanamalai" starter="2" PowerCable="1" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="2">
+                    </Municipality>
+                    <Municipality Name="Tiruvathipuram" starter="1" PowerCable="2" SwitchBox="2" Motor="2" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Vandavasi" starter="1" PowerCable="2" SwitchBox="2" Motor="2" Pump="3" EB="1" Others="1">
+                    </Municipality>
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="3" Below25Perc="2" Below50Perc="1" Above50Perc="2"></Daily>
+                  <Details>
+                    <Municipality Name="Arani" Below10Perc="9" Below25Perc="6" Below50Perc="3" Above50Perc="2">
+                    </Municipality>
+                    <Municipality Name="Tiruvanamalai" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="1" >
+                    </Municipality>
+                    <Municipality Name="Tiruvathipuram" Below10Perc="2" Below25Perc="1" Below50Perc="2" Above50Perc="4">
+                    </Municipality>
+                    <Municipality Name="Vandavasi" Below10Perc="3" Below25Perc="1" Below50Perc="4" Above50Perc="2">
+                    </Municipality>
+
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="27" Scheduled="31"></Daily>
+                  <Details>
+                    <Municipality Name="Arani" Cleaned="24" Scheduled="40">
+                    </Municipality>
+                    <Municipality Name="Tiruvanamalai" Cleaned="21" Scheduled="32">
+                    </Municipality>
+                    <Municipality Name="Tiruvathipuram" Cleaned="5" Scheduled="5"></Municipality>
+                    <Municipality Name="Vandavasi" Cleaned="5" Scheduled="5"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Vellore">
+                <LPCD>
+                  <Daily Good="3" Comfortable="1" Poor="0" Acute="2" MPendingApproval="1"></Daily>
+                  <Weekly Good="2" Comfortable="2" Poor="2" Acute="4" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014" Good="1" Comfortable="1" Acute="2" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014" Good="2" Comfortable="2" Acute="2" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="5" PendingApproval="2"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="54" ActionTaken="36"></Daily>
+                  <Details>
+                    <Municipality Name="Anbur" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="2">
+                    </Municipality>
+                    <Municipality Name="Arakkonam" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="4" Others="1">
+                    </Municipality>
+                    <Municipality Name="Arcot" starter="1" PowerCable="2" SwitchBox="3" Motor="2" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Jolarpet" starter="2" PowerCable="2" SwitchBox="3" Motor="2" Pump="1" EB="1" Others="2">
+                    </Municipality>
+                    <Municipality Name="Melvisharam" starter="4" PowerCable="2" SwitchBox="3" Motor="7" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Peranampet" starter="2" PowerCable="1" SwitchBox="2" Motor="1" Pump="3" EB="4" Others="2">
+                    </Municipality>
+                    <Municipality Name="Ranipet" starter="1" PowerCable="2" SwitchBox="3" Motor="2" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Tirupathur" starter="2" PowerCable="2" SwitchBox="3" Motor="2" Pump="1" EB="1" Others="2">
+                    </Municipality>
+                    <Municipality Name="Vaniyampadi" starter="1" PowerCable="2" SwitchBox="3" Motor="2" Pump="3" EB="1" Others="3">
+                    </Municipality>
+                    <Municipality Name="Walajapet" starter="2" PowerCable="2" SwitchBox="3" Motor="2" Pump="1" EB="1" Others="1">
+                    </Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="1" Below25Perc="2" Below50Perc="3" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Anbur" Below10Perc="17" Below25Perc="18" Below50Perc="6" Above50Perc="4"></Municipality>
+                    <Municipality Name="Arakkonam" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="1"></Municipality>
+                    <Municipality Name="Arcot" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="4"></Municipality>
+                    <Municipality Name="Jolarpet" Below10Perc="2" Below25Perc="1" Below50Perc="1" Above50Perc="2" ></Municipality>
+                    <Municipality Name="Melvisharam" Below10Perc="17" Below25Perc="18" Below50Perc="6" Above50Perc="4"></Municipality>
+                    <Municipality Name="Peranampet" Below10Perc="2" Below25Perc="8" Below50Perc="3" Above50Perc="3"></Municipality>
+                    <Municipality Name="Ranipet" Below10Perc="3" Below25Perc="1" Below50Perc="1" Above50Perc="1"></Municipality>
+                    <Municipality Name="Tirupathur" Below10Perc="2" Below25Perc="1" Below50Perc="1" Above50Perc="1"></Municipality>
+                    <Municipality Name="Vaniyampadi" Below10Perc="2" Below25Perc="1" Below50Perc="1" Above50Perc="1"></Municipality>
+                    <Municipality Name="Walajapet" Below10Perc="17" Below25Perc="18" Below50Perc="6" Above50Perc="3"></Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="15" Scheduled="20"></Daily>
+                  <Details>
+                    <Municipality Name="Anbur" Cleaned="11" Scheduled="15"></Municipality>
+                    <Municipality Name="Arakkonam" Cleaned="10" Scheduled="10"></Municipality>
+                    <Municipality Name="Arcot" Cleaned="3" Scheduled="5"></Municipality>
+                    <Municipality Name="Jolarpet" Cleaned="3" Scheduled="6"></Municipality>
+                    <Municipality Name="Melvisharam" Cleaned="11" Scheduled="15"></Municipality>
+                    <Municipality Name="Peranampet" Cleaned="10" Scheduled="10"></Municipality>
+                    <Municipality Name="Ranipet" Cleaned="3" Scheduled="5"></Municipality>
+                    <Municipality Name="Tirupathur" Cleaned="3" Scheduled="6"></Municipality>
+                    <Municipality Name="Vaniyampadi" Cleaned="11" Scheduled="15"></Municipality>
+                    <Municipality Name="Walajapet" Cleaned="10" Scheduled="10"></Municipality>
+
+                  </Details>
+                </TankCleaning>
+              </District>
+
+              <District Name="Villupuram">
+                <LPCD>
+                  <Daily Good="0" Comfortable="0" Poor="3" Acute="0" MPendingApproval="0"></Daily>
+                  <Weekly Good="0" Comfortable="1" Poor="1" Acute="2" MPendingApproval="2"></Weekly>
+                  <Last3Days>
+                    <Day Date="08/05/2014" Good="3" Comfortable="1" Acute="2" Poor="2" PendingApproval="3"></Day>
+                    <Day Date="09/05/2014" Good="0" Comfortable="2" Acute="1" Poor="2" PendingApproval="1"></Day>
+                    <Day Date="10/05/2014" Good="3" Comfortable="1" Acute="1" Poor="2" PendingApproval="4"></Day>
+                  </Last3Days>
+                </LPCD>
+                <IssuesChart>
+                  <Daily Reported="25" ActionTaken="14"></Daily>
+                  <Details>
+                    <Municipality Name="Kallakurichi" starter="2" PowerCable="2" SwitchBox="1" Motor="1" Pump="3" EB="1" Others="3"></Municipality>
+                    <Municipality Name="Tindivanam" starter="2" PowerCable="2" SwitchBox="3" Motor="3" Pump="3" EB="4" Others="3"></Municipality>
+                    <Municipality Name="Villupuram" starter="1" PowerCable="2" SwitchBox="1" Motor="2" Pump="3" EB="1" Others="3"></Municipality>
+
+                  </Details>
+                </IssuesChart>
+                <SourceDataChart>
+                  <Daily Below10Perc="1" Below25Perc="0" Below50Perc="1" Above50Perc="4"></Daily>
+                  <Details>
+                    <Municipality Name="Kallakurichi" Below10Perc="3" Below25Perc="2" Below50Perc="2" Above50Perc="4"></Municipality>
+                    <Municipality Name="Tindivanam" Below10Perc="2" Below25Perc="4" Below50Perc="2" Above50Perc="2"></Municipality>
+                    <Municipality Name="Villupuram" Below10Perc="3" Below25Perc="2" Below50Perc="1" Above50Perc="2"></Municipality>
+                  </Details>
+                </SourceDataChart>
+                <TankCleaning>
+                  <Daily Cleaned="10" Scheduled="21"></Daily>
+                  <Details>
+                    <Municipality Name="Kallakurichi" Cleaned="11" Scheduled="15"></Municipality>
+                    <Municipality Name="Tindivanam" Cleaned="25" Scheduled="10"></Municipality>
+                    <Municipality Name="Villupuram" Cleaned="9" Scheduled="5"></Municipality>
+                  </Details>
+                </TankCleaning>
+              </District>
+            </DistrictData>
+          </Districts>
+        </Region>
+      </RegionData>
+
+    </Regions>
+  </Municipalities>
+</WaterSupply>
+
